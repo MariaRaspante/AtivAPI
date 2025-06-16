@@ -15,5 +15,6 @@ namespace PiagetMicroserv.Data
         }
 
         public DbSet<PiagetMicroserv.Models.Produtos> Produtos { get; set; } = default!;
+        public DbSet<PiagetMicroserv.Models.Fornecedor> Fornecedor { get; set; } = default!;
     }
 }
